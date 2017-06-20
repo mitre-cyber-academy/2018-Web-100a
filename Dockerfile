@@ -16,6 +16,8 @@ RUN mkdir -p /usr/src/app
 
 COPY Server.rb /usr/src/app
 COPY config.ru /usr/src/app
+RUN mkdir /usr/src/app/public
+COPY public /usr/src/app/public
 
 WORKDIR /usr/src/app
 

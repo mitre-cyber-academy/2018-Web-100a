@@ -6,19 +6,19 @@ enable :inline_templates
 get '/' do
   adChoice = rand(10); 
    if adChoice == 7
-  AdImageCode = '<img src="/ad4.png" alt="Call 555-523-3311 for FREE samples of our latest product" height="200" width="200">'
+  AdImageCode = '<img src="/Resources/ad4.png" alt="Call 555-523-3311 for FREE samples of our latest product" height="200" width="200">'
 end
   if adChoice <= 6 
-  AdImageCode = '<img src="/ad1.gif" alt="Call 555-523-3311 for FREE samples of our latest product" height="200" width="200">'
+  AdImageCode = '<img src="/Resources/ad1.gif" alt="Call 555-523-3311 for FREE samples of our latest product" height="200" width="200">'
 end
 if adChoice == 8
-  AdImageCode = "<img src='/ad2.png' alt='Call 555-523-3311 for FREE samples of our latest product' height='200' width='200'> 
-  <iframe src='sale.html'  scrolling='no' style=' width: 0px; height: 0px;  overflow: hidden;' >
+  AdImageCode = "<img src='/Resources/ad2.png' alt='Call 555-523-3311 for FREE samples of our latest product' height='200' width='200'> 
+  <iframe src='/Resources/sale.html'  scrolling='no' style=' width: 0px; height: 0px;  overflow: hidden;' >
   <p>Your browser does not support iframes.</p>
    </iframe>"
 end
 if adChoice == 9
-  AdImageCode = '<img src="/ad3.png" alt="Call 555-523-3311 for FREE samples of our latest product" height="200" width="200">'
+  AdImageCode = '<img src="/Resources/ad3.png" alt="Call 555-523-3311 for FREE samples of our latest product" height="200" width="200">'
 end
 
   "<title>Amazing Website</title>
@@ -28,7 +28,7 @@ end
 </center>
 
 <audio id='myAudio'>
-  <source src='congratulations.wav' type='audio/mpeg'>
+  <source src='/Resources/congratulations.wav' type='audio/mpeg'>
 </audio>
 <script>
 var x = document.getElementById('myAudio');
@@ -38,7 +38,7 @@ x.play();
 </script>
 
 <script>
-alert('YOU HAVE WON!!!! CALL 1800-555-3141 TO CLAIM YOUR PRIZE!!!')
+alert('YOU HAVE WON!!!! CALL 555-0131 TO CLAIM YOUR PRIZE!!!')
 </script>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nunc ligula, lobortis in fermentum non, efficitur at sapien. Phasellus ut posuere ligula, ac dapibus tellus. Cras sodales, nulla convallis faucibus aliquam, enim purus maximus mauris, mollis fermentum urna ante non nisi. Donec ipsum ipsum, molestie quis velit et, porta blandit arcu. Maecenas varius sit amet dui quis ullamcorper. Maecenas risus turpis, faucibus sed est ac, cursus tempor leo. Suspendisse et tristique sem, ut faucibus justo. Phasellus vel ultricies turpis, ut aliquet leo.
